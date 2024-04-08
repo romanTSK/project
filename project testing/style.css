@@ -1,0 +1,221 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 1500px;
+}
+
+
+.nav1{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+
+}
+
+.nav2{
+    background-color: rgb(71, 62, 151);
+    color: white;
+    padding: 20px 50px;
+
+}
+
+.navTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput{
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder{
+    color: lightgray;
+}
+
+.limitedOffer{
+    font-size: 20px;
+    border-bottom: 2px purple;
+    cursor: pointer;
+}
+
+.navBottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 50px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.slider{
+    background-color: rgb(219, 219, 219);
+    overflow: hidden;
+    height: 500px;
+}
+
+.sliderWrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1s ease-in-out;
+}
+
+.sliderItem{
+    position: relative;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderRound{
+    position: absolute;
+    background-color: rgb(47, 0, 255);
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+
+}
+
+.sliderTitle{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    color: blueviolet;
+    z-index: 1;
+}
+
+.sliderPrice{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    color: blueviolet;
+    border: 1px solid gray;
+    z-index: 1;
+}
+
+.buyButton{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 30px;
+    font-weight: 400;
+    color: blueviolet;
+    background-color: blue;
+    border: 1px solid gray;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.buyButton:hover{
+    background-color: white;
+    color: black;
+}
+
+.sliderImg{
+    z-index: 1;
+}
+
+.sliderItem:nth-child(1) .sliderRound{
+    background-color: green;
+}
+
+.sliderItem:nth-child(2) .sliderRound{
+    background-color: blue;
+}
+
+.sliderItem:nth-child(3) .sliderRound{
+    background-color: yellow;
+}
+
+.sliderItem:nth-child(4) .sliderRound{
+    background-color: purple;
+}
+
+.sliderItem:nth-child(5) .sliderRound{
+    background-color: orange;
+}
+
+
+
+
+
+.sliderItem:nth-child(1) .sliderPrice{
+    background-color: green;
+}
+
+.sliderItem:nth-child(2) .sliderPrice{
+    background-color: blue;
+}
+
+.sliderItem:nth-child(3) .sliderPrice{
+    background-color: yellow;
+}
+
+.sliderItem:nth-child(4) .sliderPrice{
+    background-color: purple;
+}
+
+.sliderItem:nth-child(5) .sliderPrice{
+    background-color: orange;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    background-color: #ffffff; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-xiaomi {background-color: #f0ad4e !important; color: #000000 !important;} 
+.btn-success {background-color: #5cb85c !important;} 
+.btn-clear {background-color: #dbdbdb !important; color: #ff261f !important;} 
+.btn-apple {background-color: #000000 !important; color: #ffffff !important;}
+.btn-samsung {background-color: #3341ff !important; color: #ffffff !important;}
+.btn-asus {background-color: #ff3a33 !important; color: #ffffff !important;}
+.btn-honor {background-color: #4e6cf0 !important; color: #ffffff !important;} 
+.btn-oneplus {background-color: #ff2929 !important; color: #ffffff !important} 
+.btn-lenovo {background-color: #dbdbdb !important; color: #ff261f !important;} 
+.btn-hp {background-color: #000000 !important; color: #ffffff !important;}
+.btn-acer {background-color: #ececec !important; color: #000000 !important;}
+.btn-dell {background-color: #3363ff !important; color: #ffffff !important;}
+.btn-msi {background-color: #ff3636 !important; color: #ffcf30 !important;} 
+.btn-lg {background-color: #3452ff !important; color: #ff3728 !important;} 
+
+.buttonSearch{
+    background-color: #000000;
+}
+
