@@ -1,0 +1,151 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+ 
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+     rel="stylesheet" 
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+     crossorigin="anonymous">
+ 
+</head>
+<body>
+
+    <nav class="nav1">
+        <div class="navTop">
+            <div class="navItem">
+                <img src="img/1.png" width="50px" height="50px">
+            </div>
+            <div class="navItem">
+                <div class="search">
+                    <input type="text" placeholder="search" class="searchInput">
+                    <img src="img/searchicon.png" width="20" height="20" class="searchIcon">
+                </div>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer">Get Limitet Offers!!!</span>
+            </div>
+        </div>
+
+    </nav>
+
+
+
+    <button class="categoryBtn" onclick="hideShow()">Search Items By Category</button>
+    <div id="dropDownSearch" class="dropDownSearch">
+        <div class="buttonSearch">
+            <div class="inputLabels">
+                <label for="id1">Search for product by name</label>
+                <input type="text" placeholder="Search for product by name" class="form-control" id="id1">
+                <label for="minPrice">Enter Minimum Price</label>
+                <input type="number" placeholder="Enter Minimum Price" class="form-control" id="minPrice">
+                <label for="maxPrice">Enter Maximum Price</label>
+                <input type="number" placeholder="Enter Maximum Price" class="form-control" id="maxPrice">
+                <button class="btn btn-success mt-2" id="search">Search</button>
+                <button class="btn btn-clear" id="clear">Clear</button> 
+            </div>
+    
+            <div class="brandButtons">
+                <button class="btn btn-apple brand" value="apple">Apple</button>
+                <button class="btn btn-xiaomi brand" value="xiaomi">Xiaomi</button>
+                <button class="btn btn-samsung brand" value="samsung">Samsung</button>
+                <button class="btn btn-asus brand" value="asus">Asus</button>
+                <button class="btn btn-honor brand" value="honor">Honor</button>
+                <button class="btn btn-oneplus brand" value="oneplus">OnePlus</button>
+                <button class="btn btn-lenovo brand" value="lenovo">Lenovo</button>
+                <button class="btn btn-hp brand" value="hp">HP</button>
+                <button class="btn btn-acer brand" value="acer">Acer</button>
+                <button class="btn btn-dell brand" value="dell">Dell</button>
+                <button class="btn btn-msi brand" value="msi">MSI</button>
+                <button class="btn btn-lg brand" value="lg">LG</button>
+            </div>
+    
+            <section></section>
+        
+        </div>
+    </div>
+
+
+
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="img/product1.png" alt="Image #1">
+            <img class="slide" src="img/product2.png" alt="Image #2">
+            <img class="slide" src="img/product3.png" alt="Image #3">
+            <img class="slide" src="img/product4.png" alt="Image #4">
+            <img class="slide" src="img/product5.png" alt="Image #5">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094</button>
+        <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+
+    <nav class="nav2">
+        <p>Might interest you</p>
+    </nav>
+
+    
+
+
+
+    </div>
+
+
+    <div class="advert">
+        <div class="advertItem">
+            <h1 class="advertTitle">Choose the best!</h1>
+            <img src="img/11.jpg"
+                alt="" class="advertImg">
+        </div>
+        <div class="advertItem">
+            <img src="img/22.jpg"
+                alt="" class="advertImg">
+            <h1 class="advertTitle">Get ready for future of smartphones</h1>
+        </div>
+        <div class="advertItem">
+            <h1 class="advertTitle">From shock you might just flip!</h1>
+            <img src="img/33.jpg"
+                alt="" class="advertImg">
+        </div>
+    </div>
+
+
+    <div class="fts">
+        <div class="ft">
+            <img src="img/111.png" alt="" class="ftIcon">
+            <span class="ftTitle">SHIPPING</span>
+            <span class="ftDesc">Order and ship worldwide without any issues</span>
+        </div>
+        <div class="ft">
+            <img src="img/222.png" alt="" class="ftIcon">
+            <span class="ftTitle">REFUNDS</span>
+            <span class="ftDesc">In case of faulty products refunds are guaranteed</span>
+        </div>
+        <div class="ft">
+            <img src="img/333.png" alt="" class="ftIcon">
+            <span class="ftTitle">GIFTS</span>
+            <span class="ftDesc">You can easily order a gift for a special someone</span>
+        </div>
+        <div class="ft">
+            <img src="img/444.png" alt="" class="ftIcon">
+            <span class="ftTitle">CONTACT</span>
+            <span class="ftDesc">For more info you can contact us at basedshop@notreal.com</span>
+        </div>
+    </div>
+
+
+
+
+
+
+<script src="app.js"></script>
+
+
+
+
+
+</body>
+</html>
