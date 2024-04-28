@@ -42,6 +42,26 @@ function nextSlide(){
 
 
 
+var div = document.getElementById("dropDownSearch");
+    var display = 1;
+
+    function hideShow()
+    {
+        if(display == 1)
+        {
+            div.style.display = "block";
+            display = 0;
+        }
+        else
+        {
+            div.style.display = "none";
+            display = 1;
+        }
+    }
+
+
+
+
 
 
 let section = document.querySelector("section");
@@ -99,5 +119,15 @@ function renderer(apiList) {
         `
     });
 }
+
+
+
+document.getElementById('color1').addEventListener('click', function() {
+    document.getElementById('productImage').src = 'img/iphone1.png';
+});
+
+document.getElementById('color2').addEventListener('click', function() {
+    document.getElementById('productImage').src = 'img/iphone2.png';
+});
 
 
